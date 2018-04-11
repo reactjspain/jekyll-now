@@ -5,13 +5,4 @@ date:   2018-04-09
 categories: redux store react localstorage thunk
 ---
 
-Después de descubrir y ver esta gran [charla]((https://youtu.be/BcVAq3YFiuc)) de [Michael Jackson](https://github.com/mjackson) sobre los Higher-Order Components de React, os comparto más abajo el código de prueba que he realizado y un breve resumen de lo que más me ha ayudado. Este tipo de conferencias sí que merecen la pena. Bien explicado, al grano y sin olor a postureo.
-
-![Higher-Order Components](../images/higher-order-components.png)
-
-Vamos!
-
-## Referencias
-
-* [Never Write Another HoC](https://youtu.be/BcVAq3YFiuc)
-* [Use a render prop!](https://cdb.reacttraining.com/use-a-render-prop-50de598f11ce)
+Hoy os dejo un pequeño esquema de lo que sería una aplicación escrita en React con Redux, el LocalStorage del navegador y una API externa. Se incluyen las dependencias principales que afectan a dicha estructura y el ciclo en el proceso de hacer una petición a la API (empezando por el punto 1). Antes de realizarla, eso sí, se puede indicar al *store* de Redux que la petición está en marcha (por ejemplo con *isLoading: true* - punto 2.1, siguiendo con el 5). En este último caso, la interactuación entre la app y redux es más es más rápida. La petición en sí sigue el camino que comienza por el punto 2.2.
