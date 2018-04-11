@@ -13,7 +13,7 @@ Este tipo de conferencias sí que merecen la pena. Bien explicado, al grano y si
 
 ![Higher-Order Components](../images/higher-order-components.png)
 
-Es necesario decir que publicaré otro artículo sobre la segunda parte del mismo. En él se mostrarán las desventajas de los HOC y la solución definitiva frente a ellas: las ***Render Props***.
+Es necesario decir que publicaré otro artículo sobre la segunda parte del vídeo En él se mostrarán las desventajas de los HOC y la solución definitiva frente a ellas: las ***Render Props***.
 
 Vamos!
 
